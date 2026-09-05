@@ -20,7 +20,7 @@
 | 팀 기술 | Meta Wearables DAT, BLE, MediaCodec, TensorFlow Lite, Jetpack Compose |
 | 개발 방식 | CLI·MCP를 활용한 AI 보조 개발, Task 분할, Git 협업, 자동 테스트·검증 문서 |
 
-관광지의 근접 구역에 들어가면 미션을 시작하고, 스마트글라스 카메라로 대상을 찾은 뒤, 팀 비전 파이프라인이 검출·재검증한 결과를 미션과 스탬프 UI에 연결하는 프로토타입입니다. 최종 화면은 스마트글라스 Display와 Android Compose UI이며, 현실 공간에 3D 객체를 정합하는 AR 오버레이로 표현하지 않습니다.
+관광지의 근접 구역에 들어가면 미션을 시작하고, 스마트글라스 카메라로 대상을 찾은 뒤, 팀 비전 파이프라인이 검출·재검증한 결과를 미션과 스탬프 UI에 연결하는 프로토타입입니다. 최종 화면은 스마트글라스 Display와 Android Compose UI입니다.
 
 ## 방향을 바꾼 이유
 
