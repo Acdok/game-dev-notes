@@ -104,13 +104,3 @@ AI 보조 개발에서는 생성 속도보다 “현재 프로젝트에서 실�
 | 완료 조건 | `Assets/Checklists/` |
 | 저장된 팀 검증 | `Assets/Reports/18-AutomatedValidationReport.md` |
 
-## 아직 검증하지 못한 것
-
-- 최종 Meta DAT·UI 소스의 API 31 이상 connected instrumentation 재실행
-- 실제 현장 BLE·카메라·Display 전체 체인의 반복 성공률
-- 모델 holdout precision/recall과 오탐·미탐 분석
-- 15분·30분 장시간 발열, 배터리, 프레임 지연
-- 서명된 Release APK와 배포 절차
-- 시연 영상 빌드와 최종 소스 revision의 정확한 일치
-
-위 항목은 향후 검증 계획이며 완료 성과로 표기하지 않습니다.
