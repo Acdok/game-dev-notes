@@ -6,7 +6,7 @@
 
 ![토끼 미션 팀 UI 시각 자산](../../assets/smartglass/team_mission_rabbit.png)
 
-*팀 UI 시각 자산이며 런타임 캡처나 개인 구현 증빙이 아닙니다.*
+
 
 ## 프로젝트 개요
 
