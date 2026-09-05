@@ -16,7 +16,7 @@ Unreal Engine에서 C++와 Blueprint로 게임플레이·UI·데이터 흐름을
 - 개발 기간·인원: 2024.06–12 · 2인 팀
 - 핵심 역할: Unreal 클라이언트 — 대화 구조체 변환, 15개 UMG 흐름, 장면 연출·편집·다시보기
 - 기술: Unreal Engine 5.4, C++, Blueprint, UMG, HTTP/JSON 연동
-- 결과: Windows 실행 패키지 · 2024 메타버스 개발자 경진대회 우수상(팀)
+- 결과: 2024 메타버스 개발자 경진대회 우수상(팀)
 
 **[프로젝트 상세 설명 →](projects/k-reality-simulator/DETAILS.md)** · [시연 영상](https://youtu.be/DKNxsU4mA8I)
 
