@@ -18,7 +18,7 @@ Unreal Engine에서 C++와 Blueprint로 게임플레이·UI·데이터 흐름을
 - 기술: Unreal Engine 5.4, C++, Blueprint, UMG, HTTP/JSON 연동
 - 결과: 2024 메타버스 개발자 경진대회 우수상(팀)
 
-**[프로젝트 상세 설명 →](projects/k-reality-simulator/DETAILS.md)** · [시연 영상](https://youtu.be/DKNxsU4mA8I) ·[Git] 
+**[프로젝트 상세 설명 →](projects/k-reality-simulator/DETAILS.md)** · [시연 영상](https://youtu.be/DKNxsU4mA8I) · [Git](https://github.com/Acdok/KHG)
 
 ### 2. ThiefCode —  자체 제작 탑뷰 로그라이트 게임
 
