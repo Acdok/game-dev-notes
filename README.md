@@ -34,10 +34,10 @@ Unreal Engine에서 C++와 Blueprint로 게임플레이·UI·데이터 흐름을
 
 ### 3. Minecraft 모작
 
-> 절차적 복셀 월드와 런타임 블록 수정, 아이템·인벤토리를 구현한 C++ 샌드박스
+> 복셀 월드와 런타임 도중 블록 수정, 아이템·인벤토리를 구현한 마인크래프트 모작 
 
 - 개발 형태: 1인 개인 프로젝트
-- 핵심 역할: 청크·블록 배열, Naive/Greedy Meshing, 메시 재생성, 아이템·UMG
+- 핵심 역할: 청크·블록 배열, Naive/Greedy Meshing, 메시 재생성, 아이템·UMG , Save / Load
 - 기술: Unreal Engine 5, C++, Blueprint, FastNoiseLite, Procedural Mesh, DataTable, UMG
 - 세부 기능: 2D 높이·3D 밀도 지형, 가시 면 병합, 블록 파괴·배치, 아이템 획득·스택·월드 드롭
 
