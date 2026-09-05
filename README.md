@@ -121,10 +121,4 @@ Unreal Engine에서 C++와 Blueprint로 게임플레이·UI·데이터 흐름을
 
 **[프로젝트 상세 설명 →](projects/smartglass/DETAILS.md)** · [시연 영상](https://youtu.be/yOnPj3VstqE)
 
-## 기록 안내
 
-본인 구현·팀 공통 기반·AI 생성 산출물·외부 도구를 구분합니다. 저장된 테스트 기록은 당시 조건의 결과이며, 미측정 성능·미완료 기능은 완료 성과로 적지 않습니다. Risk of Risk·슬기로운 돼지 키우기는 영상과 기존 기여 기록 중심으로 설명하며 내부 알고리즘을 추정하지 않습니다.
-
-이 저장소는 기술 설명을 위한 문서 모음입니다. 원본 프로젝트 전체·상용 에셋·내부 로그를 배포하지 않습니다.
-
-[GitHub 프로필](https://github.com/Acdok) · [이미지 출처와 권리 안내](NOTICE.md)
