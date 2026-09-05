@@ -80,16 +80,4 @@ WB_InventoryGrid → WB_InventorySlot 표시 갱신
 4. `WB_DisplayMessage`로 입력 안내·결과 메시지를 표시합니다.
 5. 해당 액터의 인벤토리 또는 시설물 기능에 진입합니다.
 
-상호작용·소비·드롭·제거에는 팀 멀티플레이 구조와 연결되는 `Server_*` 이벤트 경로가 존재합니다. 이 문서가 설명하는 범위는 본인 Blueprint 시스템의 연동이며, 네트워크 기반 전체의 소유권 주장이 아닙니다.
 
-## 소스·자산을 읽는 순서
-
-아래 경로는 원본 프로젝트 기준의 위치이며, 이 문서 저장소에 원본 자산이 포함되어 있다는 의미는 아닙니다.
-
-1. `Content/DEV/JJH/Inventory/FItemStruct.uasset`, `FSlotStruct.uasset`, `ItemData.uasset`
-2. `Content/DEV/JJH/Inventory/AC_Inventory.uasset`
-3. `Content/DEV/JJH/Inventory/ui/WB_InventoryGrid.uasset`, `WB_InventorySlot.uasset`, `WB_ActionMenu.uasset`
-4. `Content/DEV/JJH/BP_Box.uasset`, `BP_lootbox.uasset`, `BP_AirdropBox.uasset`
-5. `Content/DEV/JJH/Inventory/Interact_interface.uasset`, `Content/DEV/JJH/M_OutLine.uasset`
-
-Blueprint 자산·작성 이력과 기존 실행 화면을 바탕으로 설명했습니다. 함수 존재와 구조 확인을 전체 예외 처리·현재 빌드 통과 증명으로 사용하지 않습니다.
