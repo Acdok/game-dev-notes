@@ -59,7 +59,7 @@ AI 보조 개발에서는 생성 속도보다 “현재 프로젝트에서 실�
 | `:app:assembleRelease` | unsigned Release APK 생성 |
 | Release DEX 검사 | debug manual-event gateway 제외 통과 |
 
-이 결과는 JVM 로직, 빌드 가능성, debug 전용 진입점의 release 격리를 확인하는 근거입니다. 당시 연결된 API 31 이상 기기·에뮬레이터가 없어 connected instrumentation과 물리 현장 게이트는 실행되지 않았습니다.
+
 
 ### 최종 소스와의 시간 차이
 
