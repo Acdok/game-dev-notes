@@ -41,7 +41,7 @@ Unreal Engine에서 C++와 Blueprint로 게임플레이·UI·데이터 흐름을
 - 기술: Unreal Engine 5, C++, Blueprint, FastNoiseLite, Procedural Mesh, DataTable, UMG
 - 세부 기능: 2D 높이·3D 밀도 지형, 가시 면 병합, 블록 파괴·배치, 아이템 획득·스택·월드 드롭
 
-**[프로젝트 상세 설명 →](projects/minecraft/DETAILS.md)** · [시연 영상](https://youtu.be/L7N0lZDtYAo)
+**[프로젝트 상세 설명 →](projects/minecraft/DETAILS.md)** · [시연 영상](https://youtu.be/L7N0lZDtYAo) [Git](https://github.com/Acdok/MineCraft)
 
 ### 4. KZG — A Trail of Survival
 
