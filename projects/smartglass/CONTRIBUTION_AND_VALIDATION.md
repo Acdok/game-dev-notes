@@ -46,33 +46,6 @@ AI 보조 개발에서는 생성 속도보다 “현재 프로젝트에서 실�
 - 정리한 파이프라인을 따라 문제를 확인하고 디버그·수정에 참여했습니다.
 - 자동 테스트가 통과해도 실제 기기·현장 검증을 대체하지 않는다고 구분했습니다.
 
-## 검증 기록과 시점
-
-### 저장된 2026.07.26 팀 게이트
-
-`Assets/Reports/18-AutomatedValidationReport.md`에는 다음 실행 결과가 기록돼 있습니다.
-
-| 항목 | 저장된 결과 |
-|---|---|
-| `:app:testDebugUnitTest` | 141 tests · failure 0 · error 0 · skipped 0 |
-| `:app:assembleDebug` | Debug APK 생성 |
-| `:app:assembleRelease` | unsigned Release APK 생성 |
-| Release DEX 검사 | debug manual-event gateway 제외 통과 |
-
-
-
-### 최종 소스와의 시간 차이
-
-```text
-2026.07.26 저장된 자동 검증
-  ↓ 이후 팀 변경
-2026.08.02 Meta DAT·최종 UI가 포함된 소스 상태
-  ↓
-최종 HEAD 전체 재실행 결과는 미확인
-```
-
-따라서 7월 26일의 141개 통과 기록을 8월 2일 최종 통합의 완전한 검증으로 사용하지 않습니다. 현재 소스에 더 많은 테스트가 선언돼 있어도, 새 실행 결과가 없으면 통과 수치에 더하지 않습니다.
-
 ## 영상으로 확인한 팀 결과
 
 [스마트글라스 스탬프투어 시연](https://youtu.be/yOnPj3VstqE)
