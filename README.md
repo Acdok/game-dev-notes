@@ -77,9 +77,20 @@ Unreal Engine에서 C++와 Blueprint로 게임플레이·UI·데이터 흐름을
 
 **[프로젝트 상세 설명 →](projects/lostark-clone/DETAILS.md)** · [시연 영상](https://youtu.be/kG_SeeEKs6A)
 
+### 7. 청소부들 VR
+
+> VR 포인터로 오브젝트를 선택·배치하고 작업을 진행하는 프로토타입
+
+- 핵심 역할: 오브젝트 선택 UI·배치 Blueprint, 회전·머티리얼·충돌 관련 보완
+- 기술: Unreal Engine 5.2, Blueprint, UMG, ActorComponent, Line Trace, Overlap, Git
+- 세부 기능: 차량·의자 각 2종, 테이블·파라솔 선택, 위치·방향 조정, 삭제·취소와 배치 상태
+- 상세 설명: 원본 프로젝트와 Git 이력 기반. 본인 배치 작업과 팀 VR 조작·Render Target 세척을 구분
+
+**[프로젝트 상세 설명 →](projects/cleaners-vr/DETAILS.md)** · [시연 영상](https://youtu.be/SgpD5AwSxGM)
+
 ## 추가 프로젝트 · 영상 및 교육 프로젝트
 
-### 7. Risk of Risk
+### 8. Risk of Risk
 
 > 적 전투·아이템 획득·텔레포터 목표·보스전으로 진행하는 프로토타입
 
@@ -87,15 +98,6 @@ Unreal Engine에서 C++와 Blueprint로 게임플레이·UI·데이터 흐름을
 - 상세 설명: 시작 흐름, 필드 전투, 상자·아이템, 보스 공격과 HUD
 
 **[프로젝트 상세 설명 →](projects/other-projects/risk-of-risk.md)** · [시연 영상](https://youtu.be/wRpARYSkSx0)
-
-### 8. 청소부들 VR
-
-> VR 포인터로 오브젝트를 선택·배치하고 작업을 진행하는 프로토타입
-
-- 핵심 역할: 오브젝트 선택·배치
-- 상세 설명: 차량·가구 선택 UI와 배치, 팀 세척·체크리스트 기능의 경계
-
-**[프로젝트 상세 설명 →](projects/other-projects/cleaners-vr.md)** · [시연 영상](https://youtu.be/SgpD5AwSxGM)
 
 ### 9. 슬기로운 돼지 키우기
 
@@ -121,7 +123,7 @@ Unreal Engine에서 C++와 Blueprint로 게임플레이·UI·데이터 흐름을
 
 ## 기록 안내
 
-본인 구현·팀 공통 기반·AI 생성 산출물·외부 도구를 구분합니다. 저장된 테스트 기록은 당시 조건의 결과이며, 미측정 성능·미완료 기능은 완료 성과로 적지 않습니다. Risk of Risk·청소부들 VR·슬기로운 돼지 키우기는 영상과 기존 기여 기록 중심으로 설명하며 내부 알고리즘을 추정하지 않습니다.
+본인 구현·팀 공통 기반·AI 생성 산출물·외부 도구를 구분합니다. 저장된 테스트 기록은 당시 조건의 결과이며, 미측정 성능·미완료 기능은 완료 성과로 적지 않습니다. Risk of Risk·슬기로운 돼지 키우기는 영상과 기존 기여 기록 중심으로 설명하며 내부 알고리즘을 추정하지 않습니다.
 
 이 저장소는 기술 설명을 위한 문서 모음입니다. 원본 프로젝트 전체·상용 에셋·내부 로그를 배포하지 않습니다.
 
