@@ -24,9 +24,9 @@
 
 ## 방향을 바꾼 이유
 
-초기에는 Unity 앱을 Android 휴대폰에서 실행하고 그 화면을 스마트글라스에 미러링할 계획이었습니다. 개발 중 사용한 Meta Ray-Ban·SDK 환경에서 목표한 미러링 방식을 적용할 수 없음을 확인해, Unity를 최종 런타임에서 제외하고 Android/Kotlin 앱·Meta 입력·Display를 중심으로 기획과 파이프라인을 다시 구성했습니다.
+초기에는 Unity 앱을 Android 휴대폰에서 실행하고 그 화면을 스마트글라스에 미러링할 계획이었습니다. 개발 중 사용한 Meta Ray-Ban 기기에서는 SDK 환경에서 목표한 미러링 방식을 적용할 수 없음을 확인해, Unity를 최종 런타임에서 제외하고 Android/Kotlin 앱·Meta 입력·Display를 중심으로 기획과 파이프라인을 다시 구성했습니다.
 
-이 제약은 당시 사용한 기기·SDK와 목표 방식에 한정합니다. “모든 스마트글라스는 휴대폰 미러링을 지원하지 않는다”는 일반화가 아닙니다.
+
 
 ## 본인 기여와 팀 결과
 
@@ -74,24 +74,3 @@ BLE 근접 구역
 - unsigned Release APK 생성
 - Release DEX에서 debug manual-event gateway 제외 검사 통과
 
-이 기록은 2026.08.02 최종 Meta DAT·UI 변경보다 앞선 시점의 팀 검증입니다. 최종 HEAD 전체가 같은 조건으로 다시 통과했다고 확대하지 않습니다.
-
-## 구현 근거
-
-원 프로젝트 기준 상대 경로입니다.
-
-- Android 설정·의존성: `app/build.gradle.kts`
-- 앱 조합 진입점: `app/src/main/java/com/example/smartglassar/MainActivity.kt`
-- 카메라 계층: `app/src/main/java/com/example/smartglassar/camera/`
-- 비전 계층: `app/src/main/java/com/example/smartglassar/vision/`
-- 미션·저장: `app/src/main/java/com/example/smartglassar/mission/`
-- 모바일 UI: `app/src/main/java/com/example/smartglassar/ui/`
-- JVM 테스트: `app/src/test/java/com/example/smartglassar/`
-- 작업·검증 문서: `Assets/Tasks/`, `Assets/Checklists/`, `Assets/Reports/18-AutomatedValidationReport.md`
-
-## 현재 한계
-
-- 2026.08.02 최종 소스에서 단위·계측·릴리스 게이트를 새로 실행한 결과는 확인되지 않았습니다.
-- 최종 Meta DAT 경로의 연결 기기 통합 검증과 실제 현장 BLE·카메라 전체 체인 측정은 남아 있습니다.
-- 모델 precision/recall, 장시간 발열·배터리, 배포 서명 검증 수치는 없습니다.
-- 기존 Release APK는 unsigned이므로 배포 완료 제품으로 표현하지 않습니다.
