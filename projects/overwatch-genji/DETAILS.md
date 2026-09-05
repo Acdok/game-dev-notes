@@ -15,7 +15,7 @@
 
 ## 프로젝트 소개·역할·전체 기능
 
-> 비상업적 학습 목적으로 제작한 팀 프로젝트입니다. 원작 `Overwatch`와 캐릭터·상표의 권리는 Blizzard Entertainment에 있습니다.
+> 비상업적 학습 목적으로 제작한 팀 프로젝트입니다. 
 
 [시연 영상 보기](https://youtu.be/fYp8vJ2BdDE)
 
