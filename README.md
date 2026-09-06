@@ -121,4 +121,17 @@ Unreal Engine에서 C++와 Blueprint로 게임플레이·UI·데이터 흐름을
 
 **[프로젝트 상세 설명 →](projects/smartglass/DETAILS.md)** · [시연 영상](https://youtu.be/yOnPj3VstqE)
 
+## Unity · 소스 분석 프로젝트
+
+### 11. Dopamin Survivor
+
+> 뱀파이어 서바이벌류 성장 구조에 혈사포·다중 발사·유도·분열 시너지를 더한 2D 생존 슈터
+
+- 개발 방식: Unity와 AI 보조 개발(바이브코딩)
+- 기술: Unity 6.4, C#, 2D Physics, uGUI, LineRenderer
+- 핵심 기능: 자동 전투, 경험치·3지선다 보상, 아이템·세트 빌드, 곡선 혈사포
+- 조합 설계: 평행·부채꼴 다중 발사, 부모·자식 레이저의 유도 구분, 재분열 제한
+- 상세 설명: 실제 실행 캡처 3장과 소스 기반 조합표. 기획·구현·영상 확인 범위를 구분
+
+**[프로젝트 상세 설명 →](projects/dopamin-survivor/DETAILS.md)** · [프로젝트 요약](projects/dopamin-survivor/README.md)
 
