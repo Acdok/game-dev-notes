@@ -20,7 +20,6 @@
 
 ![ThiefCode 전투 QA 화면](../../assets/thiefcode/runtime_combat.png)
 
-*PIE에서 전투 루프를 확인한 QA 화면입니다. 개발용 UI가 포함된 검증 자료이며 최종 폴리시 화면을 의미하지 않습니다.*
 
 ### 프로젝트 개요
 
