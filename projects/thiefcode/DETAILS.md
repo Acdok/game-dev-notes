@@ -165,24 +165,8 @@ flowchart LR
     L --> C[Combat Runtime]
 ```
 
-| 기능 | 책임이 드러나는 파일 |
-|---|---|
-| 드롭 서비스 | `ThiefCode/Source/ThiefCodeSystemsB/Public/Loot/TCLootService.h` |
-| 월드 조각 획득 | `ThiefCode/Source/ThiefCodeSystemsA/Public/World/TCWorldFragmentPickup.h` |
-| 진행도·저장 | `ThiefCode/Source/ThiefCodeSystemsB/Public/Progress/TCProgressSubsystem.h`, `ThiefCode/Source/ThiefCodeSystemsB/Public/Progress/TCProgressSaveGame.h` |
-| 지정 합성 | `ThiefCode/Source/ThiefCodeSystemsB/Public/Synthesis/TCSynthesisService.h` |
-| 수집·합성 상태 | `ThiefCode/Source/ThiefCodeSystemsB/Public/UI/TCCollectionSynthesisViewModel.h` |
-| 로드아웃 표시·실행 | `ThiefCode/Source/ThiefCodeSystemsA/Public/UI/TCLoadoutViewModel.h`, `ThiefCode/Source/ThiefCodeSystemsA/Public/Script/TCLoadoutExecutionComponent.h` |
-
-획득 상태와 UI 표시를 직접 결합하지 않고 Progress·Synthesis 서비스와 ViewModel 사이를 나눴습니다. 저장 가능한 안정 식별자를 기준으로 조각과 로드아웃을 다루어, 월드 Actor의 수명과 영구 진행 데이터를 분리하는 선택입니다.
 
 #### 4. Host 구성과 런타임 UI
-
-- 플레이어 조합: `ThiefCode/Source/ThiefCode/Public/Prototype/TCPrototypePlayer.h`
-- HUD: `ThiefCode/Source/ThiefCode/Public/UI/TCGameHUDWidget.h`
-- 미니맵: `ThiefCode/Source/ThiefCode/Public/World/TCMinimapRuntime.h`
-- 체크포인트: `ThiefCode/Source/ThiefCodeSystemsA/Public/World/TCCheckpoint.h`
-- 메뉴 진입과 상태: `ThiefCode/Source/ThiefCodeSystemsA/Public/UI/TCMenuShellSubsystem.h`
 
 Host는 모듈의 실제 구현을 플레이어와 월드에 조합합니다. UMG/WBP는 표시·레이아웃·모션을 담당하고, 진행도와 합성의 권한은 C++ 서비스·포트에 두는 것이 작업 표준의 원칙입니다. 이 경계 덕분에 UI 에셋을 다시 생성해도 핵심 상태 규칙이 함께 이동하지 않도록 했습니다.
 
@@ -196,14 +180,6 @@ Host는 모듈의 실제 구현을 플레이어와 월드에 조합합니다. UM
 | C++ 권한 + WBP 표현 | 자동 생성 UI가 게임 규칙을 소유하지 않게 제한 | ViewModel·바인딩 코드가 늘어남 |
 | 텔레그래프와 판정 분리 | 플레이어에게 반응 시간을 주고 상태를 관측 | 애니메이션·능력 취소 시 동기화 고려 필요 |
 
-### 설명 범위와 한계
-
-- 이 문서는 현재 파일과 모듈 관계를 설명하며, 모든 기능의 작성자를 개인으로 귀속하지 않습니다.
-- 바이너리 에셋의 내부 그래프는 이 문서의 파일명만으로 증명하지 않습니다.
-- 저장 데이터 마이그레이션, 장시간 세션, 대규모 몬스터 수에 대한 정량 검증은 확인되지 않았습니다.
-- Pixel Streaming 성능과 최종 릴리스 상태는 [하네스와 검증](HARNESS_AND_VALIDATION.md#실제-저장-결과)에서 별도로 구분합니다.
-
----
 
 <a id="section-3"></a>
 
@@ -243,25 +219,6 @@ flowchart LR
 
 이 방식은 에이전트의 “완료했다”는 응답을 완료 근거로 사용하지 않습니다. 저장된 실행 결과가 수용 조건을 충족해야 다음 상태로 이동합니다.
 
-### 도구 경계
-
-```mermaid
-flowchart TB
-    U[Task / Checklist]
-    A[AI Agent]
-    M[CLI / UE-MCP]
-    E[Unreal Editor / Python]
-    G[Build · Automation · DataValidation · MapSmoke]
-    R[Evidence / Handoff]
-    U --> A --> M --> E --> G --> R
-    G -->|실패 원인| U
-```
-
-- C++ 변경은 모듈 소유권과 Contracts 의존 관계를 먼저 확인합니다.
-- 에디터 에셋 변경은 Python 또는 제한된 MCP 도구를 통해 반복 가능한 경로로 만듭니다.
-- WBP는 표현을 담당하고, 게임 상태 권한은 C++ 서비스·포트에 둡니다.
-- 작업 중 열린 에디터, 쓰기 충돌, 기준 revision/hash를 기록해 환경 차이를 추적합니다.
-- 실패 전제나 시간이 충족되지 않으면 `BLOCKED`로 닫고 통과 기록을 만들지 않습니다.
 
 
 
