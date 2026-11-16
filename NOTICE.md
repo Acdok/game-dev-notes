@@ -16,6 +16,7 @@
 | `assets/overwatch-genji/` | 기존 포트폴리오의 겐지 실행·Animation Blueprint 화면 |
 | `assets/other-projects/` | 기존 포트폴리오에 수록한 각 프로젝트의 실행 화면 |
 | `assets/dopamin-survivor/` | 본인이 제공한 Unity Editor 실행 녹화에서 게임 영역만 추출한 캡처 3장. 원본 데스크톱 녹화는 배포하지 않음 |
+| `assets/royal-expedition/` | 실제 패키지·에디터 플레이·플레이 녹화 캡처와 AI 생성 맵 컨셉 1장. 컨셉은 게임 화면이 아닌 참고 이미지이고, 메뉴 배경 그림도 AI 생성 결과. 보스 수정 전후 비교는 실제 에디터 플레이 캡처 두 장을 나란히 붙인 검증 자료 |
 
 이미지는 이전에 정리한 프로젝트 자료의 사본이며, 없는 기능을 보여 주기 위한 합성 장면을 새로 만들지 않았습니다. 각 이미지에서 보이는 기능이 전부 본인 단독 개발이라는 뜻은 아닙니다.
 
@@ -24,6 +25,7 @@
 - Minecraft·Overwatch·Lost Ark 등 원작의 명칭과 관련 지식재산권은 각 권리자에게 있습니다. 해당 프로젝트는 학습용 모작이며 공식 제품·공식 제휴 프로젝트가 아닙니다.
 - 팀원의 소스와 아트, 외부 엔진·플러그인·모델·음원·그래픽 자산에 대한 소유권을 주장하지 않습니다.
 - Dopamin Survivor는 Vampire Survivors류 성장 구조와 The Binding of Isaac의 혈사포·아이템 조합에서 착안한 프로토타입입니다. 원작의 공식 제품·제휴나 아트 자산의 직접 제작을 주장하지 않습니다.
+- Royal Expedition은 이전 Colonization 프로토타입의 코드와 Fab 환경 에셋(Paragon, Quixel Megascans 등), CC0 음원, 언리얼 마네킹을 사용했습니다. 화면에 보이는 CC BY 4.0 에셋은 Cherry Blossom Tree(Flynn's Garage, 꽃잎 확대·크기 조정)와 GanzSe FREE Camping - Fantasy Low Poly Props(GanzSe, 크기·배치 조정)입니다. AI 생성 이미지·3D 메시는 이들 기존 에셋과 구분해 설명합니다.
 - 외부 기능을 이용한 프로젝트 연동과 외부 도구 자체의 개발을 구분해서 설명합니다.
 - 이 저장소의 공개만으로 원작·팀원·제3자 자산에 별도의 재사용 허가나 소프트웨어 라이선스가 부여되지는 않습니다.
 

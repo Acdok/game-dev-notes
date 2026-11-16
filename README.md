@@ -32,7 +32,19 @@ Unreal Engine에서 C++와 Blueprint로 게임플레이·UI·데이터 흐름을
 
 **[프로젝트 상세 설명 →](projects/thiefcode/DETAILS.md)**
 
-### 3. Minecraft 모작
+### 3. Royal Expedition — 4일 1인 게임잼
+
+> 구현은 Codex, 기획 검토·진단은 Claude에 나눠 맡기고, 문서 하네스로 범위와 완료 기준을 통제해 4일 만에 만든 판타지 원정대 익스트랙션
+
+- 작업 기간·인원: 2026.11.12–16 · 1인 (Epic AI MegaJam)
+- 핵심 역할: 게임 방향·범위 결정, 하네스·문서 체계 설계, 두 AI의 역할 분담과 교차 검수, 플레이 피드백·시안 선택
+- 기술: Unreal Engine 5.9, C++, Blueprint, UMG, Unreal MCP, Python Editor Automation, OpenAI Codex, Claude Code, Tripo Studio, Blender
+- 세부 기능: 4인 분대 RTS 지휘, 4직분 기술, 적 5종·보스 예고 공격, 공용 전리품·귀환 결산, 야영지 의뢰·상점·제작, 시야·안개, 한/영 전환
+- 결과: 구현 착수 약 5시간 만에 첫 플레이 가능 패키지 · 최종 Windows 패키지와 60초 플레이 영상
+
+**[프로젝트 상세 설명 →](projects/royal-expedition/DETAILS.md)** · [플레이 영상](https://youtu.be/Qhb5zFiIp14) · [itch.io](https://acdok.itch.io/royal-expedition)
+
+### 4. Minecraft 모작
 
 > 복셀 월드와 런타임 도중 블록 수정, 아이템·인벤토리를 구현한 마인크래프트 모작 
 
@@ -43,7 +55,7 @@ Unreal Engine에서 C++와 Blueprint로 게임플레이·UI·데이터 흐름을
 
 **[프로젝트 상세 설명 →](projects/minecraft/DETAILS.md)** · [시연 영상](https://youtu.be/L7N0lZDtYAo) · [Git](https://github.com/Acdok/MineCraft)
 
-### 4. KZG — A Trail of Survival
+### 5. KZG — A Trail of Survival
 
 > 인벤토리·건설·시설물·시간·세션 UI를 연결한 3인칭 좀비 생존 프로젝트
 
@@ -55,7 +67,7 @@ Unreal Engine에서 C++와 Blueprint로 게임플레이·UI·데이터 흐름을
 
 **[프로젝트 상세 설명 →](projects/kzg/DETAILS.md)** · [시연 영상](https://youtu.be/0tP8uwXulIc)
 
-### 5. 오버워치 모작 — 겐지
+### 6. 오버워치 모작 — 겐지
 
 > 겐지·트레이서가 대결하는 멀티플레이 데스매치 프로토타입
 
@@ -66,7 +78,7 @@ Unreal Engine에서 C++와 Blueprint로 게임플레이·UI·데이터 흐름을
 
 **[프로젝트 상세 설명 →](projects/overwatch-genji/DETAILS.md)** · [시연 영상](https://youtu.be/fYp8vJ2BdDE)
 
-### 6. LostArk 모작
+### 7. LostArk 모작
 
 > 하우징과 아이소메트릭 보스 전투를 시연한 학습용 프로젝트
 
@@ -77,7 +89,7 @@ Unreal Engine에서 C++와 Blueprint로 게임플레이·UI·데이터 흐름을
 
 **[프로젝트 상세 설명 →](projects/lostark-clone/DETAILS.md)** · [시연 영상](https://youtu.be/kG_SeeEKs6A)
 
-### 7. 청소부들 VR
+### 8. 청소부들 VR
 
 > VR 포인터로 오브젝트를 선택·배치하고 작업을 진행하는 프로토타입
 
@@ -90,7 +102,7 @@ Unreal Engine에서 C++와 Blueprint로 게임플레이·UI·데이터 흐름을
 
 ## 추가 프로젝트 · 영상 및 교육 프로젝트
 
-### 8. Risk of Risk
+### 9. Risk of Risk
 
 > 적 전투·아이템 획득·텔레포터 목표·보스전으로 진행하는 프로토타입
 
@@ -99,7 +111,7 @@ Unreal Engine에서 C++와 Blueprint로 게임플레이·UI·데이터 흐름을
 
 **[프로젝트 상세 설명 →](projects/other-projects/risk-of-risk.md)** · [시연 영상](https://youtu.be/wRpARYSkSx0)
 
-### 9. 슬기로운 돼지 키우기
+### 10. 슬기로운 돼지 키우기
 
 > 축사 시점·개체 선택·검사 진행·결과 패널을 연결한 2박 3일 프로토타입
 
@@ -109,7 +121,7 @@ Unreal Engine에서 C++와 Blueprint로 게임플레이·UI·데이터 흐름을
 
 **[프로젝트 상세 설명 →](projects/other-projects/wise-pig-raising.md)** · [시연 영상](https://www.youtube.com/watch?v=-oQ2TOpFXZE)
 
-### 10. SmartGlassAR — AR Stamp Tour
+### 11. SmartGlassAR — AR Stamp Tour
 
 > Unity 미러링 초기안의 제약을 확인하고 Android/Kotlin으로 방향을 전환한 스마트글라스 스탬프 투어
 
@@ -123,7 +135,7 @@ Unreal Engine에서 C++와 Blueprint로 게임플레이·UI·데이터 흐름을
 
 ## Unity · 소스 분석 프로젝트
 
-### 11. Dopamin Survivor
+### 12. Dopamin Survivor
 
 > 뱀파이어 서바이벌류 성장 구조에 혈사포·다중 발사·유도·분열 시너지를 더한 2D 생존 슈터
 
